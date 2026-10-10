@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: health-ai-assurance-kit
+message: If you use this toolkit, please cite it.
+type: software
+authors:
+  - family-names: Cakmak
+    given-names: Bedrettin
+license: MIT
+date-released: "2026-10-10"
+version: 0.0.1
+repository-code: "https://github.com/bedo8/health-ai-assurance-kit"
