@@ -1,12 +1,12 @@
 # health-ai-assurance-kit
 
-An open toolkit for US healthcare organizations that have been told to "get RUAIH-ready" and have no dedicated AI risk staff.
+An open toolkit for US healthcare organizations preparing for AI governance certification or accreditation with no dedicated AI risk staff.
 
-It maps the Coalition for Health AI (CHAI) eight governance elements to the Joint Commission Responsible Use of AI in Healthcare (RUAIH) certification domains, URAC Health Care AI Accreditation, NIST AI RMF, ISO/IEC 42001, Texas SB 1188 / HB 149 (TRAIGA), and the proposed HIPAA Security Rule — so a health system sees one control set and one evidence list instead of six.
+It maps the Coalition for Health AI (CHAI) governance framework — four domains, with domain 4 split into five subdomains — to the instruments a health system is answering to: the Joint Commission / CHAI Responsible Use of AI in Healthcare (RUAIH) guidance, URAC Health Care AI Accreditation, NIST AI RMF, ISO/IEC 42001, Texas SB 1188 and HB 149 (TRAIGA), and the proposed HIPAA Security Rule. One control set, one evidence list.
 
 ## Who this is for
 
-- Hospital and health-system CISOs, CMIOs, compliance and quality leaders preparing for RUAIH
+- Hospital and health-system CISOs, CMIOs, compliance and quality leaders preparing for RUAIH certification or URAC accreditation
 - Health-AI vendors answering customer due-diligence questionnaires
 - Anyone running an AI governance committee that has policies but no operating system
 
@@ -14,25 +14,30 @@ It maps the Coalition for Health AI (CHAI) eight governance elements to the Join
 
 | Folder | What it is | Status |
 | --- | --- | --- |
-| `crosswalk/` | CHAI elements × frameworks control mapping (CSV + markdown) | skeleton, first-pass mappings, unverified |
+| `crosswalk/` | CHAI domains × instruments, with a per-cell verification record | element level (8 rows); control level in progress |
+| `SOURCES.md` | Every instrument cited, with access type and the date it was last checked | current |
+| `docs/sources-to-acquire.md` | What still has to be obtained, and what each one unblocks | current |
 | `readiness-assessment/` | RUAIH readiness questionnaire and scorer | planned |
 | `vendor-assessment/` | Health-AI vendor due-diligence template | planned |
 | `policy-templates/` | AI policy, intake form, clinician disclosure script, human-review attestation | planned |
 | `evidence-map/` | Which artifact proves each control, owner, cadence | planned |
 
-## How to run a self-assessment in a day
+## What it can do today
 
-1. Open `crosswalk/crosswalk.csv` and delete the columns for instruments that don't apply to you (most deployers can drop the FDA overlay).
-2. For each row, mark whether the evidence artifact in the last column exists, exists but is stale, or doesn't exist.
-3. Roll the results up by RUAIH domain. The domain with the most "doesn't exist" entries is your first remediation sprint.
+The crosswalk is at element level: eight rows, one per CHAI domain or subdomain. That is enough to see which instruments bear on each part of a governance program and to check whether the evidence artifact for each exists. It is not enough to score a program or prepare for a survey. Control-level rows arrive once the CHAI playbook controls are loaded (see `docs/sources-to-acquire.md`).
 
-## Status and caveats
+To use it now: open `crosswalk/crosswalk.csv`, drop the columns for instruments that don't apply to you, and for each row mark whether the evidence artifact exists, exists but is stale, or doesn't exist. The row with the most gaps is the first remediation sprint.
 
-Every mapping in the crosswalk is a first pass from the published frameworks and must be verified against the primary text before you rely on it. This is not legal or regulatory advice. Nothing here is endorsed by Joint Commission, CHAI, NIST, ISO, FDA, or the State of Texas.
+## What it is not yet
 
-## Changelog
+- Not control-level. Eight rows, not sixty.
+- Not a map to the RUAIH *certification*. The `ruaih_guidance_2025` column is verified against the Sept 2025 guidance (seven elements). The `ruaih_certification` column is empty until the Joint Commission certification standards are obtained; the two documents may not share a structure.
+- Not verified end to end. `crosswalk/verification.csv` records, per cell, whether the mapping was checked against primary text, a secondary summary, or not at all. Read it before relying on any cell.
+- Not legal or regulatory advice, and not endorsed by Joint Commission, CHAI, URAC, NIST, ISO, FDA, or the State of Texas.
 
-See `CHANGELOG.md`. Rows in the crosswalk flip to `verified = yes` only when checked against the primary text, and that change is logged.
+## Verification discipline
+
+A cell moves to `primary` only when checked against the instrument's own text, and the change is logged in `CHANGELOG.md`. Clause numbers and standard names are mapped freely; text from paid standards is never reproduced.
 
 ## Citing
 

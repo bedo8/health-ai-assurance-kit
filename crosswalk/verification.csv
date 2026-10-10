@@ -1,0 +1,70 @@
+chai_id,column,status,source,checked_on,note
+1,chai_domain,primary,S1,2026-10-10,Domain names and numbering from chai.org AI governance workgroup page
+1,ruaih_guidance_2025,primary,S2,2026-10-10,Seven elements of the Sept 2025 Joint Commission/CHAI guidance
+1,ruaih_certification,unverified,S3,2026-10-10,Certification standards not obtained; column empty until they are
+1,urac_health_ai,secondary,S4,2026-10-10,Mapped to URAC public evaluation areas only; full standards are a paid document
+1,nist_ai_rmf,unverified,S5,2026-10-10,From working knowledge of AI RMF 1.0; to be checked against the subcategory text
+1,iso_42001,unverified,S6,2026-10-10,"Clause and Annex A numbers from working knowledge; standard is paid, not yet purchased"
+1,texas_sb1188_traiga,secondary,S8,2026-10-10,183.005 cells checked against statute text; other Texas cells from law-firm summaries
+1,hipaa_nprm,secondary,S9,2026-10-10,From NPRM summaries; NPRM text not yet read in full
+1,evidence_artifact,author,-,2026-10-10,Proposed by the author; not derived from any instrument
+2,chai_domain,primary,S1,2026-10-10,Domain names and numbering from chai.org AI governance workgroup page
+2,ruaih_guidance_2025,primary,S2,2026-10-10,Seven elements of the Sept 2025 Joint Commission/CHAI guidance
+2,ruaih_certification,unverified,S3,2026-10-10,Certification standards not obtained; column empty until they are
+2,urac_health_ai,secondary,S4,2026-10-10,Mapped to URAC public evaluation areas only; full standards are a paid document
+2,nist_ai_rmf,unverified,S5,2026-10-10,From working knowledge of AI RMF 1.0; to be checked against the subcategory text
+2,iso_42001,unverified,S6,2026-10-10,"Clause and Annex A numbers from working knowledge; standard is paid, not yet purchased"
+2,hipaa_nprm,secondary,S9,2026-10-10,From NPRM summaries; NPRM text not yet read in full
+2,evidence_artifact,author,-,2026-10-10,Proposed by the author; not derived from any instrument
+3,chai_domain,primary,S1,2026-10-10,Domain names and numbering from chai.org AI governance workgroup page
+3,ruaih_guidance_2025,primary,S2,2026-10-10,Seven elements of the Sept 2025 Joint Commission/CHAI guidance
+3,ruaih_certification,unverified,S3,2026-10-10,Certification standards not obtained; column empty until they are
+3,urac_health_ai,secondary,S4,2026-10-10,Mapped to URAC public evaluation areas only; full standards are a paid document
+3,nist_ai_rmf,unverified,S5,2026-10-10,From working knowledge of AI RMF 1.0; to be checked against the subcategory text
+3,iso_42001,unverified,S6,2026-10-10,"Clause and Annex A numbers from working knowledge; standard is paid, not yet purchased"
+3,hipaa_nprm,secondary,S9,2026-10-10,From NPRM summaries; NPRM text not yet read in full
+3,evidence_artifact,author,-,2026-10-10,Proposed by the author; not derived from any instrument
+4.1,chai_domain,primary,S1,2026-10-10,Domain names and numbering from chai.org AI governance workgroup page
+4.1,ruaih_guidance_2025,primary,S2,2026-10-10,Seven elements of the Sept 2025 Joint Commission/CHAI guidance
+4.1,ruaih_certification,unverified,S3,2026-10-10,Certification standards not obtained; column empty until they are
+4.1,urac_health_ai,secondary,S4,2026-10-10,Mapped to URAC public evaluation areas only; full standards are a paid document
+4.1,nist_ai_rmf,unverified,S5,2026-10-10,From working knowledge of AI RMF 1.0; to be checked against the subcategory text
+4.1,iso_42001,unverified,S6,2026-10-10,"Clause and Annex A numbers from working knowledge; standard is paid, not yet purchased"
+4.1,texas_sb1188_traiga,primary,S7,2026-10-10,183.005 cells checked against statute text; other Texas cells from law-firm summaries
+4.1,evidence_artifact,author,-,2026-10-10,Proposed by the author; not derived from any instrument
+4.2,chai_domain,primary,S1,2026-10-10,Domain names and numbering from chai.org AI governance workgroup page
+4.2,ruaih_guidance_2025,primary,S2,2026-10-10,Seven elements of the Sept 2025 Joint Commission/CHAI guidance
+4.2,ruaih_certification,unverified,S3,2026-10-10,Certification standards not obtained; column empty until they are
+4.2,urac_health_ai,secondary,S4,2026-10-10,Mapped to URAC public evaluation areas only; full standards are a paid document
+4.2,nist_ai_rmf,unverified,S5,2026-10-10,From working knowledge of AI RMF 1.0; to be checked against the subcategory text
+4.2,iso_42001,unverified,S6,2026-10-10,"Clause and Annex A numbers from working knowledge; standard is paid, not yet purchased"
+4.2,texas_sb1188_traiga,secondary,S8,2026-10-10,183.005 cells checked against statute text; other Texas cells from law-firm summaries
+4.2,hipaa_nprm,secondary,S9,2026-10-10,From NPRM summaries; NPRM text not yet read in full
+4.2,evidence_artifact,author,-,2026-10-10,Proposed by the author; not derived from any instrument
+4.3,chai_domain,primary,S1,2026-10-10,Domain names and numbering from chai.org AI governance workgroup page
+4.3,ruaih_guidance_2025,primary,S2,2026-10-10,Seven elements of the Sept 2025 Joint Commission/CHAI guidance
+4.3,ruaih_certification,unverified,S3,2026-10-10,Certification standards not obtained; column empty until they are
+4.3,urac_health_ai,secondary,S4,2026-10-10,Mapped to URAC public evaluation areas only; full standards are a paid document
+4.3,nist_ai_rmf,unverified,S5,2026-10-10,From working knowledge of AI RMF 1.0; to be checked against the subcategory text
+4.3,iso_42001,unverified,S6,2026-10-10,"Clause and Annex A numbers from working knowledge; standard is paid, not yet purchased"
+4.3,texas_sb1188_traiga,secondary,S8,2026-10-10,183.005 cells checked against statute text; other Texas cells from law-firm summaries
+4.3,hipaa_nprm,secondary,S9,2026-10-10,From NPRM summaries; NPRM text not yet read in full
+4.3,evidence_artifact,author,-,2026-10-10,Proposed by the author; not derived from any instrument
+4.4,chai_domain,primary,S1,2026-10-10,Domain names and numbering from chai.org AI governance workgroup page
+4.4,ruaih_guidance_2025,primary,S2,2026-10-10,Seven elements of the Sept 2025 Joint Commission/CHAI guidance
+4.4,ruaih_certification,unverified,S3,2026-10-10,Certification standards not obtained; column empty until they are
+4.4,urac_health_ai,secondary,S4,2026-10-10,Mapped to URAC public evaluation areas only; full standards are a paid document
+4.4,nist_ai_rmf,unverified,S5,2026-10-10,From working knowledge of AI RMF 1.0; to be checked against the subcategory text
+4.4,iso_42001,unverified,S6,2026-10-10,"Clause and Annex A numbers from working knowledge; standard is paid, not yet purchased"
+4.4,texas_sb1188_traiga,secondary,S8,2026-10-10,183.005 cells checked against statute text; other Texas cells from law-firm summaries
+4.4,hipaa_nprm,secondary,S9,2026-10-10,From NPRM summaries; NPRM text not yet read in full
+4.4,evidence_artifact,author,-,2026-10-10,Proposed by the author; not derived from any instrument
+4.5,chai_domain,primary,S1,2026-10-10,Domain names and numbering from chai.org AI governance workgroup page
+4.5,ruaih_guidance_2025,primary,S2,2026-10-10,Seven elements of the Sept 2025 Joint Commission/CHAI guidance
+4.5,ruaih_certification,unverified,S3,2026-10-10,Certification standards not obtained; column empty until they are
+4.5,urac_health_ai,secondary,S4,2026-10-10,Mapped to URAC public evaluation areas only; full standards are a paid document
+4.5,nist_ai_rmf,unverified,S5,2026-10-10,From working knowledge of AI RMF 1.0; to be checked against the subcategory text
+4.5,iso_42001,unverified,S6,2026-10-10,"Clause and Annex A numbers from working knowledge; standard is paid, not yet purchased"
+4.5,texas_sb1188_traiga,primary,S7,2026-10-10,183.005 cells checked against statute text; other Texas cells from law-firm summaries
+4.5,hipaa_nprm,secondary,S9,2026-10-10,From NPRM summaries; NPRM text not yet read in full
+4.5,evidence_artifact,author,-,2026-10-10,Proposed by the author; not derived from any instrument
